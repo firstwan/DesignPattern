@@ -1,0 +1,16 @@
+﻿Description:
+	this pattern is make those algorithms interchangeable.
+
+	for example: imagine got 3 car using the same method with same algorithm
+					-Toyota
+					-void
+					-R8
+				suddently got one new car wish to use the same method but different algorithm
+					-yes, u can create a new method for new car 1, but how about got another new car 2, 3, 4, and 5 ??
+					-r u gonna to create new method for new car 2, 3, 4, and 5 also ?? 
+						This action only will make ur system suck, ur next developer also will suffer...
+
+	* Strategy design pattern is a solution for this kind of problem
+
+	more infor: https://www.youtube.com/watch?v=v9ejT8FO-7I
+				https://www.youtube.com/watch?v=-NCgRD9-C6o

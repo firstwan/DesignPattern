@@ -1,0 +1,14 @@
+﻿Description:
+	Define an algorithm skeleton and delegate algorithm steps to subclasses so that they may be overridden
+
+	- it actually create a Template for the first time, and make it able to fill in the blank with method of different class
+	- it like a blueprint of the class
+	- use the blueprint to built something with that blueprint / use the template to fill in the blank
+	- best situation to use this design pattern is u have multiple operation, but these operation is similar
+	- and the sequence of those operation is same
+
+	for example: a poster Template, inside the template, it able to fill in different title, content, stamp, and even picture
+
+
+	more infor: https://www.youtube.com/watch?v=7ocpwK9uesw
+				https://www.youtube.com/watch?v=aR1B8MlwbRI

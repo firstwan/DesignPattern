@@ -1,0 +1,16 @@
+﻿Description:
+	Create instances of classes belonging to different families
+	- Factory is using same business logic to create different thing.
+	- Factory is build the same thing in the result, but using different material different way. like car factory
+	- the final result can be different base on user choose while runing the code....
+
+
+	there are few type of Factory Pattern:
+			- Factory Method Pattern
+			- Abstract Factory Pattern
+
+	for example: 
+
+
+	more infor: https://www.youtube.com/watch?v=EcFVTgRHJLM
+				https://www.youtube.com/watch?v=ub0DXaeV6hA

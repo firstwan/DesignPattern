@@ -1,0 +1,11 @@
+﻿Description:
+	Class that represents subclasses and subsystems
+
+	for example: - u have a bunch of classes on your system
+				 - client system try to interact with those classes, but client need to connect all of those classes
+				 - and Facade design patern allow the client connect to only one Facade class, and all of those classes
+					is connect to Facade class
+
+
+	more infor: https://www.youtube.com/watch?v=K4FkHVO5iac
+				https://www.youtube.com/watch?v=B1Y8fcYrz5o

@@ -66,6 +66,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Car.cs" />
+    <Compile Include="Cheese.cs" />
+    <Compile Include="CowFactory.cs" />
     <Compile Include="Decorator\Library Example\Book.cs" />
     <Compile Include="Decorator\Library Example\Decorator.cs" />
     <Compile Include="Decorator\Library Example\LibraryItem.cs" />
@@ -100,12 +103,38 @@
     <Compile Include="Factory\DocumentFactory\Resume.cs" />
     <Compile Include="Factory\DocumentFactory\TestProgram.cs" />
     <Compile Include="FunctionTestingClass.cs" />
+    <Compile Include="GoatFactory.cs" />
+    <Compile Include="GoatProduct.cs" />
+    <Compile Include="IPizza.cs" />
+    <Compile Include="Milk.cs" />
+    <Compile Include="ProcessMeat.cs" />
+    <Compile Include="ProcessMilk.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestEmail.cs" />
+    <Compile Include="SmallPizza.cs" />
+    <Compile Include="StartUpStype.cs" />
+    <Compile Include="Strategy\SortStrategy\SortedList.cs" />
+    <Compile Include="Strategy\SortStrategy\StrategyClass.cs" />
+    <Compile Include="Strategy\SortStrategy\StrategyMethod.cs" />
+    <Compile Include="Strategy\SortStrategy\TestProgram.cs" />
+    <Compile Include="Style1.cs" />
+    <Compile Include="Style2.cs" />
+    <Compile Include="TemplateMethod\McDonal\Fish-O-Fish.cs" />
+    <Compile Include="TemplateMethod\McDonal\McChicken.cs" />
+    <Compile Include="TemplateMethod\McDonal\TestProgram.cs" />
+    <Compile Include="TemplateMethod\Operation\ConcreteClass.cs" />
+    <Compile Include="TemplateMethod\Operation\TemplateMethodAbstractClass.cs" />
+    <Compile Include="TemplateMethod\Operation\TestProgram.cs" />
+    <Compile Include="TemplateMethod\McDonal\TemplateClass.cs" />
+    <Compile Include="ToppingDecorator.cs" />
+    <Compile Include="Toyota.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Decorator\Decorator Design Pattern.cd" />
+    <None Include="Factory\FactoryDesignPattern.cd" />
     <None Include="packages.config" />
+    <None Include="Strategy\Strategy Design Pattern.cd" />
+    <None Include="TemplateMethod\TemplateMethodDesignPattern.cd" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
@@ -119,8 +148,13 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Strategy\SortStrategy\" />
+    <Content Include="Decorator\Description.txt" />
+    <Content Include="Facade\Description.txt" />
+    <Content Include="Factory\Description.txt" />
+    <Content Include="Strategy\Description.txt" />
+    <Content Include="TemplateMethod\Description.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

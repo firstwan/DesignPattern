@@ -1,0 +1,11 @@
+﻿Description:
+	this pattern is use for Dynamically add responsibilities to objects
+
+	for example: pizza POS system....
+				- some of the customer may want customize their pizza when customer make order...
+				- some customer may want more pizza or want extra size
+
+		* Decarator is good for flexible system, it need to change the content when operate the system
+
+	more infor: https://www.youtube.com/watch?v=j40kRwSm4VE
+				https://www.youtube.com/watch?v=GCraGHx6gso
